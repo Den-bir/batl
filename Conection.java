@@ -10,7 +10,7 @@ import java.net.Socket;
  * Created by Admin on 16.08.17.
  */
 public class Conection {
-    private final Socket socket;
+    public final Socket socket;
     private final ObjectInputStream in;
     private final ObjectOutputStream out;
 
